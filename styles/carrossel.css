@@ -8,10 +8,11 @@
     padding: 1em 0.5em 0;
 }
 
-.swiper-slider img {
+.swiper-slide img {
     width: 100%;
     margin: 0 10px; /* Adiciona margem entre as imagens */
 }
+
 
 .swiper-button-prev, 
 .swiper-button-next {
@@ -36,12 +37,15 @@ display: none;
 .card__botoes {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .botoes {
     display: flex;
-    list-style: none;    
+    list-style: none;
+    align-items: center;
 }
+
 
 .card {
     background: var(--branco);

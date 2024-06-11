@@ -60,3 +60,8 @@ text-transform: uppercase;
     display: none;
 }
 
+.header-actions{
+    display:flex;
+    align-items: center;
+}
+
